@@ -1,0 +1,11 @@
+Package: GeneSurvey
+Type: Package
+Title: MD Anderson Gene Survey
+Version: 2.18
+Date: 2017-03-13
+Author: Tod Casasent <tdcasasent@mdanderson.org>
+Maintainer: Keith Baggerly <kabagger@mdanderson.org>
+Depends: R (>= 3.1.0), rJava, Cairo, pheatmap, methods
+Suggests: ReadMatrixRcpp
+Description: Access to Gene Survey Data and Analysis tools
+License: GPL (>=2)

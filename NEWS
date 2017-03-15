@@ -1,0 +1,161 @@
+
+	**************************************************
+	*						 *
+	*	       2.0 SERIES NEWS			 *
+	*						 *
+	**************************************************
+
+		CHANGES IN R VERSION 2.18
+
+NEW FEATURES
+
+    o	release version to GitHub
+
+		CHANGES IN R VERSION 2.17
+
+NEW FEATURES
+
+    o	Added Exon and Transcript access
+    o	Added Exon and Transcript to Mutation plot
+
+		CHANGES IN R VERSION 2.16
+
+NEW FEATURES
+
+    o	Fix consistent color usage by sorting colors based on disease types
+    o	Fix check warnings
+    o	Added exported get directory functions for tests
+
+		CHANGES IN R VERSION 2.15
+
+NEW FEATURES
+
+    o	Fixed issue with space and legends in mutation plots.
+    o	Name change
+    o Better logging for plotting Methylation 450 data
+    o changed from heatmap.2 to heatmap.3
+
+		CHANGES IN R VERSION 2.14
+
+NEW FEATURES
+
+    o	Fixes to 2.13
+
+		CHANGES IN R VERSION 2.13
+
+NEW FEATURES
+
+    o	V2 AssayPlot Add Gene to Axis Labels
+    o	V3 Add Gene Length to Mutations Title
+    o	V3 Meth27: Single Probe Makes Ugly Heatmap
+    o	Platform files read using C++ based package (speed and memory fix)
+    o	Added mutation details support
+    o	Change to DNA and Amino Acid plots for mutation plots
+
+		CHANGES IN R VERSION 2.12
+
+NEW FEATURES
+
+    o	handle new format for HG18/19 mapping files (mutation and SNP6 genomic annotation data)
+
+		CHANGES IN R VERSION 2.11
+
+NEW FEATURES
+
+    o	Use ZIP file for data
+    o	Use package for JAR files
+
+		CHANGES IN R VERSION 2.10
+
+NEW FEATURES
+
+    o	Handle heatmaps with all NaN
+
+		CHANGES IN R VERSION 2.9
+
+NEW FEATURES
+
+    o	Add mutation data
+    o	Add plotAssays
+    o	Add logging and resetting of cached data by exceptions
+    o	Add documentation on getMetadata_Gene list of lists
+    o Handle plotProbe and plot_GeneSymbol for methylation gracefully
+
+		CHANGES IN R VERSION 2.8
+
+NEW FEATURES
+
+    o	Add getContrast
+    o	Add getImputedNAs
+
+		CHANGES IN R VERSION 2.7
+
+NEW FEATURES
+
+    o	updated docs
+    o	add geneSymbolsForDataset
+    o	add caching of values on Java side
+    o	add JUnit tests on Java side
+    o	geneSymbolsMatchDataset
+    o	add getSynonyms
+    o	export and document plotGenericOutput and plotHeatmapOutput
+
+		CHANGES IN R VERSION 2.6
+
+NEW FEATURES
+
+    o	add one-to-one ucsc/hgnc (getOneToOne)
+    o	SNP6 Genomic Data, Objects, and Neighbors (HG18 and HG19 genomic data)
+    o	mir Genomic Data, Objects, and Neighbors (HG19 genomic data)
+
+		CHANGES IN R VERSION 2.5
+
+NEW FEATURES
+
+    o	RNASeqV2 Gene Metadata
+    o	RNASeq Gene Metadata
+    o	RNASeqV2 Gene Neighbors
+    o	RNASeq Gene Neighbors
+
+		CHANGES IN R VERSION 2.4
+
+NEW FEATURES
+
+    o	revisit colors – darker for SARC for example
+    o	make replicate plots optional
+    o	update docs
+    o	getData take vector or string
+    o	add Delta option to readGeneList functions
+    o	add type checking
+    o	getMetadataProbe take vector or string
+    o	getNames_ProbeFromGeneSymbol take list or string
+    o	add chromosome argument to ProbeByNeighbor
+
+		CHANGES IN R VERSION 2.3
+
+NEW FEATURES
+
+    o	return probe names() only for actual lists
+
+		CHANGES IN R VERSION 2.2
+
+NEW FEATURES
+
+    o	added name slot for probes, ProbesByNeighbor and other probe functions includes probe name in names()
+
+		CHANGES IN R VERSION 2.1
+
+NEW FEATURES
+
+    o	remove warnings when checking to create directory
+    o	annotations Tissue Type name
+    o	annotations disease name
+    o	annotations dataset name
+    o	add getDataObject save as list flag
+    o	fix issue with plot delta
+
+		CHANGES IN R VERSION 2.0
+
+NEW FEATURES
+
+    o	New API and Lexicon
